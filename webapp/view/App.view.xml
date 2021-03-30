@@ -1,0 +1,19 @@
+<mvc:View controllerName="comTestProject.controller.App" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<headerContent>
+						<Button
+							icon="sap-icon://hello-world"
+							press=".onOpenDialog"/>
+					</headerContent>
+				<content>
+					<!--<mvc:XMLView viewName="comTestProject.view.HelloPanel"/>-->
+					<!--<mvc:XMLView viewName="comTestProject.view.InvoicesList"/>-->
+					<App class="myAppDemoWT" id="app"/>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

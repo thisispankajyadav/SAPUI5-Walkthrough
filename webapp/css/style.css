@@ -1,0 +1,17 @@
+/* Enter your custom styles here */
+.myCustomText{
+	display: inline-block;
+	font-weight: bold;
+}
+
+.myCustomButton{
+	 margin-right: 1rem;
+}
+
+/*  ProductRating */
+.myAppDemoWTProductRating {
+	padding: 0.75rem;
+}
+.myAppDemoWTProductRating .sapMRI {
+	vertical-align: initial;
+}
